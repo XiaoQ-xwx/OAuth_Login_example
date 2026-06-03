@@ -1,0 +1,12 @@
+name: OAuth_Login_example
+version: 1.0-SNAPSHOT
+main: org.oauth_login_example.LoginPlugin
+api-version: '1.20'
+depend: [OAuthLink]
+author: XiaoQ
+
+commands:
+  login:
+    description: 绑定 Linux.DO 账号
+    usage: /login
+    aliases: []
